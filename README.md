@@ -3,9 +3,23 @@
 This repository demonstrates the methods of writing unit test with gtest in a ROS package. For more information about test driven development please look at this [repository](https://github.com/BruceChanJianLe/cpp-test-driven-development). For non ROS unit test with vscode please visit this [repository](https://github.com/BruceChanJianLe/cpp-unit-test-setup).
 
 ## Content
-
+- [Building Unit Test](#Building-Unit-Test)
 - [Running Unit Test](#Running-Unit-Test)
 - [Reference](#Reference)
+
+## Building Unit Test
+
+To build the unit test for your specific package, you can simply run the following command:
+```bash
+catkin_make run_tests_<package_name>
+```
+
+To build all unit tests in your directory, you can simpluy run the folowing command:
+```bash
+catkin_make run_tests
+```
+
+Note that for the above command to work you will need to define your `CMakeLists.txt` properly.
 
 ## Running Unit Test
 
