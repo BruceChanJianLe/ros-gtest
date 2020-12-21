@@ -40,3 +40,4 @@ Note that you can write `catkin_make run_tests` and tab tab.
 
 - roswiki gtest [link](http://wiki.ros.org/gtest)
 - ROS plugin unit test [link](https://blog.csdn.net/u013158492/article/details/50502266)
+- Example of unit test with ROS (repository) [link](https://github.com/steup/Ros-Test-Example/blob/master/src/cars/src/Test.cpp)
