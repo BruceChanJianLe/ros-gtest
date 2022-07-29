@@ -36,6 +36,10 @@ catkin_make run_test_<package_name>_gtest_<unit_test_name>
 
 Note that you can write `catkin_make run_tests` and tab tab.
 
+## WARNING
+
+Note that it seems like ros related things, like publisher, ROS_INFO, are only available for the first test case. Not sure why it did not initialize properly. To be continue...
+
 ## Reference
 
 - roswiki gtest [link](http://wiki.ros.org/gtest)
